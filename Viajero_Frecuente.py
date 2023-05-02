@@ -47,7 +47,7 @@ class Viajero:
     def __eq__(self, otro):
         return self.getmillas() == otro
     #def __eq__(self, otro):
-    #   return self.getmillas() + otro.getmillas()
+    #   return self.getmillas() == otro.getmillas()
     def __req__(self, otro):
         return self.getmillas() == otro
     
