@@ -76,6 +76,7 @@ if __name__ == "__main__":
                 while i < len(viajeros):
                     if viajeros[i].getmillas() > max:
                         max=viajeros[i].getmillas()
+                        i += 1
                 while b < len(viajeros):
                     if viajeros[b].getmillas() == max:
                         print('Viajeros con mayor cantidad de millas:')
