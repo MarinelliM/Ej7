@@ -81,6 +81,7 @@ if __name__ == "__main__":
                     if viajeros[b].getmillas() == max:
                         print('Viajeros con mayor cantidad de millas:')
                         print("Numero de viajero: {}, DNI: {}, Nombre: {}, Apellido: {}, Millas acumuladas: {}".format(viajero.num_viajero, viajero.dni, viajero.nombre, viajero.apellido, viajero.getmillas()))
+                        b += 1
             elif op == 'o':
                 print('Fin del programa')
             else:
